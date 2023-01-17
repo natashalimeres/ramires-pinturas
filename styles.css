@@ -448,6 +448,10 @@ footer {
   cursor: pointer;
 }
 
+#footer_icons:hover {
+  font-size: 35px;
+}
+
 .instagram-icon {
   color: #bc3c94;
 }

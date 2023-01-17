@@ -292,16 +292,17 @@ form input[type="text"],
   padding-left: 8px;
   width: 450px;
   height: 35px;
+  border: 0.5px solid #b6b6b6;
   border-radius: 5px;
 }
 
 form textarea {
   padding-left: 8px;
-  margin-top: 10px;
   width: 450px;
   height: 120px;
   line-height: 20px;
   resize: none;
+  border: 0.5px solid #b6b6b6;
   border-radius: 5px;
 }
 

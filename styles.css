@@ -31,7 +31,7 @@ header {
   background-image: url("./assets/images/banner_principal.jpg");
   background-position: center;
   background-size: cover;
-  filter: brightness(70%);
+  filter: brightness(65%);
   position: absolute;
   inset: 0;
   z-index: -9999;
@@ -112,6 +112,12 @@ nav li:hover {
   justify-content: center;
   align-items: center;
   margin: auto;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#roller:hover {
+  transform: scale(1.1);
 }
 
 .line {

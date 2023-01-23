@@ -17,16 +17,6 @@ body {
   padding-left: 50px;
 }
 
-.header-box {
-  background-image: url("./assets/images/banner_principal.jpg");
-  background-position: center;
-  background-size: cover;
-  filter: brightness(50%);
-  position: absolute;
-  inset: 0;
-  z-index: -9999;
-}
-
 header {
   width: 100%;
   display: flex;
@@ -37,8 +27,19 @@ header {
   right: 0;
 }
 
+.header-box {
+  background-image: url("./assets/images/banner_principal.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: brightness(70%);
+  position: absolute;
+  inset: 0;
+  z-index: -9999;
+}
+
 nav {
   width: 100%;
+  max-height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,10 +51,10 @@ nav {
   );
 }
 
-nav h1 {
-  color: #ffff;
-  font-weight: normal;
-  font-size: 24px;
+nav img {
+  width: 200px;
+  position: relative;
+  top: 50px;
 }
 
 nav ul {
@@ -85,23 +86,7 @@ nav li:hover {
 
 .header-container h2 {
   font-weight: normal;
-  font-size: 22px;
-}
-
-.contact-button {
-  background-color: #fdf001;
-  width: 190px;
-  padding-block: 15px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
-  margin-top: 20px;
-  transition: all 0.3s ease;
-}
-
-.contact-button:hover {
-  letter-spacing: 0.9px;
+  font-size: 24px;
 }
 
 .roller-section {
@@ -240,118 +225,9 @@ nav li:hover {
   margin-top: 0.25em;
 }
 
-.form-title {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-form {
-  padding-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.form-title h2 {
-  font-size: 48px;
-  letter-spacing: 2px;
-  color: #333333;
-  padding: 100px 0px 10px;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-weight: bold;
-}
-
-.form-title p {
-  color: #333333;
-  font-size: 16px;
-  line-height: 25px;
-  padding-bottom: 10px;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 8px;
-}
-
-form label {
-  color: #333333;
-  font-size: 18px;
-  padding: 10px 0px 2px 0px;
-}
-
-form input,
-textarea {
-  outline: none;
-}
-
-form input[type="text"],
-[type="tel"],
-[type="email"] {
-  padding-left: 8px;
-  width: 450px;
-  height: 35px;
-  border: 0.5px solid #b6b6b6;
-  border-radius: 5px;
-}
-
-form textarea {
-  padding-left: 8px;
-  width: 450px;
-  height: 120px;
-  line-height: 20px;
-  resize: none;
-  border: 0.5px solid #b6b6b6;
-  border-radius: 5px;
-}
-
-form input[type="submit"] {
-  width: 450px;
-  border: none;
-  border-radius: 30px;
-  background-color: #53cf60;
-  color: #ffff;
-  font-weight: bold;
-  font-size: 18px;
-  padding-block: 15px;
-  margin-top: 15px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-form input[type="submit"]:hover {
-  letter-spacing: 0.9px;
-}
-
-.whatsapp-submit-icon {
-  position: relative;
-  bottom: 48px;
-  left: 25px;
-  color: #ffff;
-  font-size: 30px;
-}
-
-.line-footer {
-  width: 90%;
-  height: 1px;
-  margin-inline: auto;
-  background: linear-gradient(
-    90deg,
-    rgba(180, 180, 180, 0.5970763305322129) 0%,
-    rgba(134, 134, 134, 1) 15%,
-    rgba(25, 25, 25, 1) 50%,
-    rgba(134, 134, 134, 1) 85%,
-    rgba(180, 180, 180, 1) 100%
-  );
-}
-
 footer {
   background-color: #ffff;
-  padding: 50px 0px 50px;
+  padding: 20px 0px 50px;
   color: #333333;
 }
 
